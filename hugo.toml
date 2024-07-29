@@ -1,0 +1,72 @@
+title = "Parkers Blog"
+baseURL = "http://parkervcp.github.io/"
+
+defaultContentLanguage = "en"
+languageCode = "en"
+
+enableEmoji = true
+enableRobotsTXT = true
+
+pygmentsStyle = "monokai"
+
+theme = "gokarna"
+
+[params]
+description = "IT guy who dabbles in wood working and 3d printing"
+
+avatarURL = "/imgs/avatar.png"
+accentColor = "#21b012"
+
+ShowBackToTopButton = true
+showPostsOnHomePage = "recent"
+
+# You can use this to inject any HTML in the <head> tag.
+# Ideal usecase for this is to import custom js/css or add your analytics snippet
+# customHeadHTML = ""
+
+# Keywords relevant for SEO
+metaKeywords = ["blog", "gokarna", "hugo"]
+
+footer = "parkervcp"
+
+socialIcons = [
+    { name = "twitch", url = "twitch.tv/parkervcp" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/parkervcp/" },
+    { name = "twitter", url = "https://twitter.com/parkervcp" },
+]
+
+[security]
+enableInlineShortcodes = true
+
+[menu]
+[[menu.main]]
+name = "Home"
+pre = "<span data-feather='home'></span>"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+pre = "<span data-feather='book'></span>"
+identifier = "posts"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+pre = "<span data-feather='tag'></span>"
+identifier = "tags"
+url = "/tags/"
+weight = 3
+
+[[menu.main]]
+name = "Extra Life"
+identifier = "extra-life"
+url = "https://el.pvcp.co/"
+weight = 4
+
+[[menu.main]]
+identifier = "github"
+pre = "<span data-feather='github'></span>"
+url = "https://github.com/parkervcp"
+weight = 5

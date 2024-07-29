@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Parkers Blog</title>
+    <link>http://parkervcp.github.io/tags/blog/</link>
+    <description>Recent content in Blog on Parkers Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://parkervcp.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A first post</title>
+      <link>http://parkervcp.github.io/posts/first-post/</link>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://parkervcp.github.io/posts/first-post/</guid>
+      <description>A basic blog has to have some sort of content.&#xA;First thing. I don&amp;rsquo;t do any of my open source work for money.&#xA;If you want to &amp;ldquo;donate&amp;rdquo; to me please make a donation to my Extra Life page. The URL redirects to my page and I keep it updated.&#xA;just because I am running a blog doesn&amp;rsquo;t mean that I will have this updated on an regular basis. If anything this will be a dumping ground for stuff that I have figured out and wanted to share.</description>
+    </item>
+  </channel>
+</rss>
