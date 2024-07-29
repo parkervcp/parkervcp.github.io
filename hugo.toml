@@ -46,27 +46,33 @@ url = "/"
 weight = 1
 
 [[menu.main]]
+name = "About"
+pre = "<span data-feather='coffee'></span>"
+url = "/about/"
+weight = 2
+
+[[menu.main]]
 name = "Posts"
 pre = "<span data-feather='book'></span>"
 identifier = "posts"
 url = "/posts/"
-weight = 2
+weight = 3
 
 [[menu.main]]
 name = "Tags"
 pre = "<span data-feather='tag'></span>"
 identifier = "tags"
 url = "/tags/"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "Extra Life"
 identifier = "extra-life"
 url = "https://el.pvcp.co/"
-weight = 4
+weight = 5
 
 [[menu.main]]
 identifier = "github"
 pre = "<span data-feather='github'></span>"
 url = "https://github.com/parkervcp"
-weight = 5
+weight = 6
